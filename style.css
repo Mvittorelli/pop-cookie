@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Inter", sans-serif;
+	position: relative;
+	border: 1px red solid;
+	height: 100vh;
+}
+
+.square {
+	height: 50%;
+	width: 35%;
+	border-radius: 12px;
+	position: absolute;
+}
+
+.red {
+	top: 26%;
+	left: 28%;
+	background-color: red;
+}
+.blue {
+	top: 32%;
+	left: 32%;
+	background-color: blue;
+	z-index: 1;
+}
+.green {
+	top: 38%;
+	left: 36%;
+	background-color: lime;
+	z-index: 1;
+}
+
+.cookies {
+	height: max-content;
+	width: max-content;
+	background-color: #d9d9d9;
+	border-radius: 12px;
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	text-align: center;
+	padding: 10px 30px 10px 30px;
+}
+
+.refuse,
+.allow {
+	outline: none;
+	padding: 5px 20px 5px 20px;
+	background-color: #fff;
+	border-radius: 12px;
+    transition: 0.3s
+}
+
+.refuse {
+	border: 1px #0084ff solid;
+	color: #0084ff;
+	background-color: #fff;
+	color: #0084ff;
+}
+
+.allow {
+	border: 1px #0084ff solid;
+	color: #fff;
+	background-color: #0084ff;
+	color: #fff;
+}
+
+.allow:hover {
+	border: 1px #0084ff solid;
+	color: #0084ff;
+	background-color: #fff;
+	color: #0084ff;
+}
+
+.refuse:hover {
+	border: 1px #0084ff solid;
+	color: #fff;
+	background-color: #0084ff;
+	color: #fff;
+}
